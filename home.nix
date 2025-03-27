@@ -43,8 +43,12 @@
   };
 
   home.packages = [
-    pkgs.htop
-    pkgs.fortune
+    pkgs.google-chrome
+    pkgs.i3
+    pkgs.wezterm
+    pkgs.tmux
+    pkgs.vim
+    pkgs.stow
   ];
 
 }
