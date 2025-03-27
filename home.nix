@@ -6,7 +6,7 @@
   # You need to change these to match your username and home directory
   # path:
   home.username = "tofu";
-  home.homeDirectory = "$HOME";
+  home.homeDirectory = "/home/tofu";
 
 
   # You can update Home Manager without changing this value. See
