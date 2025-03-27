@@ -43,12 +43,20 @@
   };
 
   home.packages = [
+    # Desktop Environment
     pkgs.i3
     pkgs.picom
     pkgs.rofi
     pkgs.polybar
+
+    # Browsers
     pkgs.google-chrome
+    pkgs.qutebrowser
+
+    # Terminal and Developer
+    pkgs.git
     pkgs.wezterm
+    pkgs.zoxide
     pkgs.tmux
     pkgs.vim
     pkgs.stow
