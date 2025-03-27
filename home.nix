@@ -2,6 +2,8 @@
 
 {
 
+  # allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
   # You need to change these to match your username and home directory
   # path:
