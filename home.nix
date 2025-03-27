@@ -43,8 +43,11 @@
   };
 
   home.packages = [
-    pkgs.google-chrome
     pkgs.i3
+    pkgs.picom
+    pkgs.rofi
+    pkgs.polybar
+    pkgs.google-chrome
     pkgs.wezterm
     pkgs.tmux
     pkgs.vim
