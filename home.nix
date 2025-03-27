@@ -15,7 +15,7 @@
   #
   # You need to change these to match your username and home directory
   # path:
-  home.username = "$USER";
+  home.username = "tofu";
   home.homeDirectory = "$HOME";
 
   # If you use non-standard XDG locations, set these options to the
