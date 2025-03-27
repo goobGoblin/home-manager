@@ -2,34 +2,13 @@
 
 {
 
-  # The home-manager manual is at:
-  #
-  #   https://rycee.gitlab.io/home-manager/release-notes.html
-  #
-  # Configuration options are documented at:
-  #
-  #   https://rycee.gitlab.io/home-manager/options.html
 
-  # Home Manager needs a bit of information about you and the
-  # paths it should manage.
-  #
   # You need to change these to match your username and home directory
   # path:
   home.username = "tofu";
   home.homeDirectory = "$HOME";
 
-  # If you use non-standard XDG locations, set these options to the
-  # appropriate paths:
-  #
-  # xdg.cacheHome
-  # xdg.configHome
-  # xdg.dataHome
 
-  # This value determines the Home Manager release that your
-  # configuration is compatible with. This helps avoid breakage
-  # when a new Home Manager release introduces backwards
-  # incompatible changes.
-  #
   # You can update Home Manager without changing this value. See
   # the Home Manager release notes for a list of state version
   # changes in each release.
@@ -48,6 +27,7 @@
     pkgs.picom
     pkgs.rofi
     pkgs.polybar
+    pkgs.nautilus
 
     # Browsers
     pkgs.google-chrome
@@ -55,10 +35,12 @@
 
     # Terminal and Developer
     pkgs.git
+    pkgs.lazygit
     pkgs.wezterm
     pkgs.zoxide
     pkgs.tmux
     pkgs.vim
+    pkgs.neovim
     pkgs.stow
   ];
 
